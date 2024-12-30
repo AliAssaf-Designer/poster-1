@@ -76,7 +76,7 @@ body,button{
         }
         .social{
             ul{
-                li{
+                .social-icon{
                     list-style-type: none;
                     float: left;
                     padding-right: 10px;
