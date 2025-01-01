@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body,button{
+body,.btn{
     font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -28,7 +28,7 @@ body,button{
                 width: 340px;
                 padding: 20px 0;
             }
-            button{
+            .btn{
                 padding: 4px 15px;
                 border-radius: 15px;
                 border: none;
@@ -39,7 +39,7 @@ body,button{
             }
         }
         .logo{
-            img{
+            .logo-img{
                 float: right;
                 width: 100px;
             }
@@ -61,7 +61,7 @@ body,button{
             top: -375px;
             left: 200px;
             z-index: -1;
-            img{
+            .main-img{
                 width: 75%;
             }
         }
@@ -75,12 +75,12 @@ body,button{
             }
         }
         .social{
-            ul{
+            .list{
                 .social-icon{
                     list-style-type: none;
                     float: left;
                     padding-right: 10px;
-                    img{
+                    .social-img{
                         width: 24px;
                         
                     }
@@ -89,7 +89,7 @@ body,button{
         }
         .website{
             float: right;
-            a{
+            .site-link{
                 color: #63605e;
                 text-decoration: none;
                 text-transform: uppercase;
